@@ -105,3 +105,29 @@ async function fetchWeather(lat, lon) {
   const data = await response.json();
   console.log(data);
 }
+
+
+## Continued Development
+
+I plan to improve this project by:
+
+- Adding geolocation detection for first-time users
+- Implementing dark/light mode
+- Showing animated backgrounds based on weather conditions
+- Adding sunrise/sunset and UV index data
+
+## Useful Resources
+
+- [Open-Meteo API Documentation](https://open-meteo.com/) – helped me understand how to fetch weather data.
+- [CSS Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/) – reference for responsive layouts.
+- [Frontend Mentor](https://www.frontendmentor.io/) – for challenge setup and asset files.
+
+## Author
+
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://twitter.com/yourusername)
+
+## Acknowledgments
+
+Thanks to **Frontend Mentor** for providing the challenge and assets.  
+Special thanks to the **community** for inspiration and guidance.
