@@ -34,6 +34,7 @@
 
         <!-- main markup -->
         <main>
+            <!-- Hero Section -->
             <section class="hero-section">
                 <h1 class="hero-text">
                     How's the sky looking today?
@@ -53,6 +54,144 @@
                     </div>
                     <button id="search-btn">Search</button>
                 </div>
+            </section>
+
+            <!-- Current Weather Card -->
+            <section class="current-weather">
+              <div class="weather-card">
+                <div class="location-info">
+                  <h2 class="location">Berlin, Germany</h2>
+                  <p class="date">Tuesday, Aug 5, 2025</p>
+                </div>
+                <div class="temperature-info">
+                  <img src="/assets/images/icon-sunny.webp" alt="sunny weather" class="weather-icon">
+                  <span class="temperature">68°</span>
+                </div>
+              </div>
+            </section>
+            
+            <!-- Weather Stats Grid -->
+            <section class="weather-stats">
+              <div class="stats-grid">
+                <div class="stat-card">
+                  <h3 class="stat-label">Feels Like</h3>
+                  <p class="stat-value">18°</p>
+                </div>
+                <div class="stat-card">
+                  <h3 class="stat-label">Humidity</h3>
+                  <p class="stat-value">46%</p>
+                </div>
+                <div class="stat-card">
+                  <h3 class="stat-label">Wind</h3>
+                  <p class="stat-value">14 km/h</p>
+                </div>
+                <div class="stat-card">
+                  <h3 class="stat-label">Precipitation</h3>
+                  <p class="stat-value">0 mm</p>
+                </div>
+              </div>
+            </section>
+            
+            <!-- Daily Forecast -->
+            <section class="daily-forecast">
+              <h3 class="forecast-title">Daily forecast</h3>
+              <div class="daily-grid">
+                <div class="daily-card">
+                  <span class="day">Tue</span>
+                  <img src="/assets/images/icon-cloudy-rain.svg" alt="cloudy with rain" class="daily-icon">
+                  <span class="high-temp">20°</span>
+                  <span class="low-temp">14°</span>
+                </div>
+                <div class="daily-card">
+                  <span class="day">Wed</span>
+                  <img src="/assets/images/icon-cloudy.svg" alt="cloudy" class="daily-icon">
+                  <span class="high-temp">21°</span>
+                  <span class="low-temp">15°</span>
+                </div>
+                <div class="daily-card">
+                  <span class="day">Thu</span>
+                  <img src="/assets/images/icon-sun.svg" alt="sunny" class="daily-icon">
+                  <span class="high-temp">24°</span>
+                  <span class="low-temp">14°</span>
+                </div>
+                <div class="daily-card">
+                  <span class="day">Fri</span>
+                  <img src="/assets/images/icon-partly-cloudy.svg" alt="partly cloudy" class="daily-icon">
+                  <span class="high-temp">25°</span>
+                  <span class="low-temp">13°</span>
+                </div>
+                <div class="daily-card">
+                  <span class="day">Sat</span>
+                  <img src="/assets/images/icon-storm.svg" alt="stormy" class="daily-icon">
+                  <span class="high-temp">21°</span>
+                  <span class="low-temp">15°</span>
+                </div>
+                <div class="daily-card">
+                  <span class="day">Sun</span>
+                  <img src="/assets/images/icon-snow.svg" alt="snowy" class="daily-icon">
+                  <span class="high-temp">25°</span>
+                  <span class="low-temp">16°</span>
+                </div>
+                <div class="daily-card">
+                  <span class="day">Mon</span>
+                  <img src="/assets/images/icon-fog.svg" alt="foggy" class="daily-icon">
+                  <span class="high-temp">24°</span>
+                  <span class="low-temp">15°</span>
+                </div>
+              </div>
+            </section>
+            
+            <!-- Hourly Forecast -->
+            <section class="hourly-forecast">
+              <div class="hourly-header">
+                <h3 class="hourly-title">Hourly forecast</h3>
+                <div class="day-selector">
+                  <span class="selected-day">Tuesday</span>
+                  <img src="/assets/images/icon-dropdown.svg" alt="dropdown" class="dropdown-icon">
+                </div>
+              </div>
+              <div class="hourly-list">
+                <div class="hourly-item">
+                  <img src="/assets/images/icon-cloudy.svg" alt="cloudy" class="hourly-icon">
+                  <span class="hour">3 PM</span>
+                  <span class="hourly-temp">20°</span>
+                </div>
+                <div class="hourly-item">
+                  <img src="/assets/images/icon-cloudy.svg" alt="cloudy" class="hourly-icon">
+                  <span class="hour">4 PM</span>
+                  <span class="hourly-temp">20°</span>
+                </div>
+                <div class="hourly-item">
+                  <img src="/assets/images/icon-sun.svg" alt="sunny" class="hourly-icon">
+                  <span class="hour">5 PM</span>
+                  <span class="hourly-temp">20°</span>
+                </div>
+                <div class="hourly-item">
+                  <img src="/assets/images/icon-cloudy.svg" alt="cloudy" class="hourly-icon">
+                  <span class="hour">6 PM</span>
+                  <span class="hourly-temp">19°</span>
+                </div>
+                <div class="hourly-item">
+                  <img src="/assets/images/icon-cloudy.svg" alt="cloudy" class="hourly-icon">
+                  <span class="hour">7 PM</span>
+                  <span class="hourly-temp">18°</span>
+                </div>
+                <div class="hourly-item">
+                  <img src="/assets/images/icon-fog.svg" alt="foggy" class="hourly-icon">
+                  <span class="hour">8 PM</span>
+                  <span class="hourly-temp">18°</span>
+                </div>
+                <div class="hourly-item">
+                  <img src="/assets/images/icon-cloudy.svg" alt="cloudy" class="hourly-icon">
+                  <span class="hour">9 PM</span>
+                  <span class="hourly-temp">17°</span>
+                </div>
+                <div class="hourly-item">
+                  <img src="/assets/images/icon-cloudy.svg" alt="cloudy" class="hourly-icon">
+                  <span class="hour">10 PM</span>
+                  <span class="hourly-temp">17°</span>
+                </div>
+              </div>
             </section>
         </main>
     </div>
