@@ -1,0 +1,53 @@
+/* Reset Defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General styling */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(243, 96%, 9%);
+    color: hsl(0, 0%, 100%);
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* units styles*/
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 2px 7px;
+    background-color: hsl(243, 23%, 30%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Stack vertically on mobile*/
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+/* Responsive design for larger screens */
+@media (min-width: 1024px) {
+    main {
+        max-width: 1440px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+        padding: 2rem;
+    }
+}
+
