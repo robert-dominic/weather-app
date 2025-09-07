@@ -124,7 +124,7 @@
 
         /* Current Weather Card */
         .current-weather {
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.2rem;
         }
 
         .weather-card {
@@ -185,23 +185,29 @@
         }
         
         .stat-card {
-            background-color: hsl(243, 23%, 20%);
+            background-color: hsl(243, 27%, 20%);
             border-radius: 16px;
-            padding: 1.5rem;
+            padding: 1.8rem;
             text-align: left;
+            border: 1px solid hsl(243, 23%, 30%);
+            transition: all ease-in-out 0.3s;
         }
         
         .stat-label {
-            font-size: 0.9rem;
+            font-size: 1.3rem;
             color: hsla(0, 0%, 100%, 0.7);
             font-weight: 400;
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
         }
         
         .stat-value {
-            font-size: 1.8rem;
-            font-weight: 600;
+            font-size: 1.6rem;
+            font-weight: 500;
             color: hsl(0, 0%, 100%);
+        }
+
+        .stat-card:hover {
+            background-color: hsl(243, 23%, 24%);
         }
         
         /* Daily Forecast */
@@ -210,17 +216,16 @@
         }
         
         .forecast-title {
-            font-size: 1.1rem;
-            font-weight: 600;
+            font-size: 1.2rem;
+            font-weight: 500;
             margin-bottom: 1rem;
             color: hsl(0, 0%, 100%);
         }
         
         .daily-grid {
             display: grid;
-            grid-template-columns: repeat(7, 1fr);
-            gap: 0.5rem;
-            overflow-x: auto;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.75rem;
         }
         
         .daily-card {
@@ -235,24 +240,31 @@
         }
         
         .day {
-            font-size: 0.9rem;
+            font-size: 1.2rem;
             font-weight: 500;
             color: hsla(0, 0%, 100%, 0.8);
         }
         
         .daily-icon {
-            width: 32px;
-            height: 32px;
+            width: 50px;
+            height: 50px;
         }
+
+        .temps {
+          display: flex;
+          gap: 2rem;
+          align-items: center;
+        }
+
         
         .high-temp {
-            font-size: 1rem;
+            font-size: 1.2rem;
             font-weight: 600;
             color: hsl(0, 0%, 100%);
         }
         
         .low-temp {
-            font-size: 0.9rem;
+            font-size: 1rem;
             color: hsla(0, 0%, 100%, 0.6);
         }
         
@@ -349,7 +361,6 @@
     
             .daily-grid {
                 grid-template-columns: repeat(7, 1fr);
-                overflow-x: visible;
             }
             
             .daily-card {
